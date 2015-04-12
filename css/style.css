@@ -1,4 +1,19 @@
 html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Helvetica, Sans-Serif;
+}
+h1 {
+    font-size: 10rem;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    h1   { font-size: 20rem; }
+}
+
+html {
     background: url(/img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,7 +26,6 @@ h1 {
     width: 100%;
     text-align: center;
     position: relative;
-    font: 200px Helvetica, Sans-Serif;
     letter-spacing: -5px;
     color: rgba(0,0,255,0.5);
 }
